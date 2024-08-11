@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-11T17:25:23 IST" name="Suite" finished-at="2024-08-11T17:27:04 IST" duration-ms="100719">
+    <groups>
+    </groups>
+    <test started-at="2024-08-11T17:25:23 IST" name="chromeTest" finished-at="2024-08-11T17:26:21 IST" duration-ms="57937">
+      <class name="com.qa.Assignment.Assignment1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.Assignment.Assignment1@5e0e82ae]" started-at="2024-08-11T17:25:23 IST" name="setUp" finished-at="2024-08-11T17:25:24 IST" duration-ms="1067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="links()[pri:0, instance:com.qa.Assignment.Assignment1@5e0e82ae]" started-at="2024-08-11T17:25:24 IST" name="links" finished-at="2024-08-11T17:26:21 IST" duration-ms="56620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Assignment.Assignment1@5e0e82ae]" started-at="2024-08-11T17:26:21 IST" name="tearDown" finished-at="2024-08-11T17:26:21 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Assignment.Assignment1 -->
+    </test> <!-- chromeTest -->
+    <test started-at="2024-08-11T17:26:21 IST" name="fireFoxTest" finished-at="2024-08-11T17:27:03 IST" duration-ms="42604">
+      <class name="com.qa.Assignment.Assignment1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.Assignment.Assignment1@179ece50]" started-at="2024-08-11T17:26:21 IST" name="setUp" finished-at="2024-08-11T17:26:23 IST" duration-ms="2587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="links()[pri:0, instance:com.qa.Assignment.Assignment1@179ece50]" started-at="2024-08-11T17:26:23 IST" name="links" finished-at="2024-08-11T17:27:03 IST" duration-ms="39305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Assignment.Assignment1@179ece50]" started-at="2024-08-11T17:27:03 IST" name="tearDown" finished-at="2024-08-11T17:27:03 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Assignment.Assignment1 -->
+    </test> <!-- fireFoxTest -->
+    <test started-at="2024-08-11T17:27:03 IST" name="safariTest" finished-at="2024-08-11T17:27:04 IST" duration-ms="160">
+      <class name="com.qa.Assignment.Assignment1">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.Assignment.Assignment1@3cd3e762]" started-at="2024-08-11T17:27:03 IST" name="setUp" finished-at="2024-08-11T17:27:04 IST" duration-ms="154" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: safaridriver, error Command failed with code: 65, executed: [--browser, safari, --language-binding, java, --output, json]
+safaridriver not available for download
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 65, executed: [--browser, safari, --language-binding, java, --output, json]
+safaridriver not available for download
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:84)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:80)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:57)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:48)
+at com.qa.Assignment.Assignment1.setUp(Assignment1.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, safari, --language-binding, java, --output, json]
+safaridriver not available for download
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:170)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="links()[pri:0, instance:com.qa.Assignment.Assignment1@3cd3e762]" started-at="2024-08-11T17:27:04 IST" name="links" finished-at="2024-08-11T17:27:04 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: safaridriver, error Command failed with code: 65, executed: [--browser, safari, --language-binding, java, --output, json]
+safaridriver not available for download
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: safaridriver, error Command failed with code: 65, executed: [--browser, safari, --language-binding, java, --output, json]
+safaridriver not available for download
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.safari.SafariDriver.generateExecutor(SafariDriver.java:95)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:84)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:80)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:57)
+at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:48)
+at com.qa.Assignment.Assignment1.setUp(Assignment1.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, safari, --language-binding, java, --output, json]
+safaridriver not available for download
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: SafariDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:170)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Assignment.Assignment1@3cd3e762]" started-at="2024-08-11T17:27:04 IST" name="tearDown" finished-at="2024-08-11T17:27:04 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Assignment.Assignment1 -->
+    </test> <!-- safariTest -->
+  </suite> <!-- Suite -->
+</testng-results>
